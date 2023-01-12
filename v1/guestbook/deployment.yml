@@ -20,7 +20,7 @@ spec:
         app: guestbook
     spec:
       containers:
-      - image: us.icr.io/<your sn labs namespace>/guestbook:v1
+      - image: jp2.icr.io/ibm-dev-skills/guestbook:v1
         imagePullPolicy: Always
         name: guestbook
         ports:
